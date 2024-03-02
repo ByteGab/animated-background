@@ -2,7 +2,7 @@ const container = document.querySelector('.container');
 const colors = ['#CB51EE','#0073BC','#38B75E','#DE365C'];
 
 const figures1 = () => {
-    for(let i = 0;i <=30; i++ ){
+    for(let i = 0;i <= 30; i++ ){
         let figure = document.createElement('span');
         figure.classList.add('cuadrado');
         let select = Math.round(colors.length * Math.random()) % colors.length;
@@ -22,7 +22,7 @@ const figures1 = () => {
 figures1();
 
 const figures2 = () => {
-    for(let i = 0;i <=30; i++ ){
+    for(let i = 0;i <= 30; i++ ){
         let figure = document.createElement('span');
         figure.classList.add('circulo');
         let select = Math.round(colors.length * Math.random()) % colors.length;
